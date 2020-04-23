@@ -1,9 +1,10 @@
 # A simple UDP broadcaster using Boost.asio.
 
+It sends broadcast on port _2020_.
+
 ## Build
 
 Install Boost C++ library on your system.
-It sends broadcast on port _2020_.
 
 ```shell script
 cmake
