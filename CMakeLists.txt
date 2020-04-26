@@ -12,5 +12,5 @@ ENDIF(Boost_FOUND)
 
 SET(USED_LIBS ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBRARY})
 
-ADD_EXECUTABLE(boost_test main.cpp)
+ADD_EXECUTABLE(boost_test main.cpp random_string.cpp random_string.h)
 TARGET_LINK_LIBRARIES(boost_test ${USED_LIBS})
